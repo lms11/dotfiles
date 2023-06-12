@@ -1,0 +1,179 @@
+{
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.fontSize": 14,
+  "editor.suggest.preview": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.suggest.localityBonus": true,
+  "workbench.preferredLightColorTheme": "Licht Theme",
+  "files.trimFinalNewlines": true,
+  "workbench.preferredDarkColorTheme": "Dunkel Theme",
+  "gitlens.views.branches.branches.layout": "list",
+  "editor.folding": false,
+  "workbench.editor.enablePreview": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.acceptSuggestionOnEnter": "smart",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "emmet.showExpandedAbbreviation": "never",
+  "livePreview.autoRefreshPreview": "Never",
+  "git.enableCommitSigning": true,
+  "eslint.format.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "window.autoDetectColorScheme": true,
+  "editor.accessibilitySupport": "off",
+  "[mdx]": {
+    "editor.wordWrap": "on"
+  },
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "black",
+  "rust-analyzer.checkOnSave.command": "clippy",
+  "gitlens.codeLens.enabled": false,
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.minimap.enabled": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.snippetSuggestions": "top",
+  "githubPullRequests.pullBranch": "never",
+  "javascript.validate.enable": false,
+  "editor.suggest.showMethods": true,
+  "editor.fontLigatures": true,
+  "workbench.colorTheme": "Dunkel Theme",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "github.copilot.enable": {
+    "yaml": false,
+    "*": true,
+    "plaintext": true,
+    "markdown": true
+  },
+  "editor.unicodeHighlight.allowedCharacters": {
+    "–": true,
+    "‹": true,
+    "’": true,
+    "›": true
+  },
+  "editor.tabSize": 2,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vs-kubernetes": {
+    "vscode-kubernetes.minikube-path.linux": "/home/lmoreirasantos/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+    "vscode-kubernetes.kubectl-path.linux": "/home/lmoreirasantos/.local/state/vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.helm-path.linux": "/home/lmoreirasantos/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm"
+  },
+  "AllAutocomplete.updateOnlyOnSave": true,
+  "editor.suggestSelection": "first",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.untitled.hint": "hidden",
+  "files.insertFinalNewline": true,
+  "editor.inlineSuggest.enabled": true,
+  "explorer.confirmDelete": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gremlins.characters": {
+    "000b": {
+      "level": "warning",
+      "description": "line tabulation"
+    },
+    "201d": {
+      "level": "none",
+      "description": "right double quotation mark"
+    },
+    "202d": {
+      "level": "error",
+      "zeroWidth": true,
+      "description": "left-to-right override"
+    },
+    "2029": {
+      "level": "error",
+      "zeroWidth": true,
+      "description": "paragraph separator"
+    },
+    "2019": {
+      "level": "none",
+      "description": "right single quotation mark"
+    },
+    "0003": {
+      "level": "warning",
+      "description": "end of text"
+    },
+    "00ad": {
+      "level": "info",
+      "description": "soft hyphen"
+    },
+    "200c": {
+      "level": "warning",
+      "zeroWidth": true,
+      "description": "zero width non-joiner"
+    },
+    "201c": {
+      "level": "none",
+      "description": "left double quotation mark"
+    },
+    "202c": {
+      "level": "error",
+      "zeroWidth": true,
+      "description": "pop directional formatting"
+    },
+    "2018": {
+      "level": "none",
+      "description": "left single quotation mark"
+    },
+    "fffc": {
+      "level": "error",
+      "zeroWidth": true,
+      "description": "object replacement character"
+    },
+    "200b": {
+      "level": "error",
+      "zeroWidth": true,
+      "description": "zero width space"
+    },
+    "202e": {
+      "level": "error",
+      "zeroWidth": true,
+      "description": "right-to-left override"
+    },
+    "2013": {
+      "level": "none",
+      "description": "en dash"
+    },
+    "200e": {
+      "level": "error",
+      "zeroWidth": true,
+      "description": "left-to-right mark"
+    },
+    "00a0": {
+      "level": "info",
+      "description": "non breaking space"
+    }
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  }
+}
